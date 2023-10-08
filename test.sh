@@ -1,9 +1,9 @@
-python test.py --plms --gpu_id 3 \
+python test.py --plms --gpu_id 0 \
 --ddim_steps 100 \
 --outdir results/viton \
 --config configs/viton512.yaml \
---dataroot /data/user/gjh/VITON-HD \
---ckpt /data/user/gjh/models/tryon/checkpoints/viton512.ckpt \
+--dataroot /workspace/VITON-HD \
+--ckpt /workspace/DCI-VTON-Virtual-Try-On/models/Paint-by-Example/2023-10-05T22-08-11_viton512/checkpoints/epoch=000009.ckpt \
 --n_samples 8 \
 --seed 23 \
 --scale 1 \
